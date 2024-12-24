@@ -197,7 +197,7 @@
 
   .form-title {
     margin-bottom: 15px;
-    font-size: 24px;
+    font-size: 21px;
     margin: 0;
     color: $deep-ocean-blue;
     // flex-direction: column;
@@ -205,7 +205,7 @@
 
   .form-holder-wrap {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     padding: 10px;
     width: 100%;
@@ -215,7 +215,7 @@
       width: 75%;
       display: flex;
       justify-content: space-around;
-      align-items: center;
+      align-items: baseline;
       // flex-direction: column;
 
       .form-group {
@@ -242,7 +242,7 @@
     }
 
     .form-btn-wrap {
-      width: 25%;
+      width: 80%;
       align-items: center;
       display: flex;
      
@@ -250,7 +250,7 @@
       .btn {
         // width: 80%;
         // padding: 10px 20px;
-        width: 110%;
+        width: 40%;
         padding: 5px;
         background-color: $deep-ocean-blue;
         color: #fff;
@@ -269,7 +269,7 @@
 
       .more-filters-opener {
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 11px;
         font-weight: bold;
         color: $ocean-blue;
         text-decoration: none;
@@ -532,7 +532,7 @@
   }
 }
 }
-
+/*________________________________________________________________________________________________________________*/
 @media (max-width:576px){
   .job-search-form {
     position: relative;
@@ -639,6 +639,7 @@
   }
 }
 }
+/*__________________________________________________________________________________________________________________________________________________________________*/
 @media (max-width:576px){
 .talent-section {
   display: flex;
@@ -799,6 +800,7 @@
   }
 }
 }
+/*___________________________________________________________________________________________________________*/
 @media (max-width:576px){
   
 .jobs-container {
